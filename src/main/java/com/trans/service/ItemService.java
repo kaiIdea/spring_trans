@@ -55,6 +55,9 @@ public class ItemService {
         }
     }
 
-
+    public void update222(){
+        System.out.println("begin modify data");
+        updateItem1();
+    }
 
 }

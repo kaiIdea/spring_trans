@@ -12,7 +12,8 @@ public class MainService {
         ItemService itemService = (ItemService) applicationContext.getBean("itemService");
         //itemService.selectItem();
 
-        itemService.updateItem1();
+        //itemService.updateItem1();
+        itemService.update222();
         System.out.println();
     }
 }
